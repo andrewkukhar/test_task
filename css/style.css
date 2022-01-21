@@ -52,3 +52,11 @@ p {
     font-size: 18px;
     padding: 10px 20px;
 }
+.number__input-two {
+    border: 1px solid rgb(49, 49, 209);
+    border-radius: 17px;
+    width: 100%;
+    color: rgb(214, 112, 3);
+    font-size: 18px;
+    padding: 10px 20px;
+}
