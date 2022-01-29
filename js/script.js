@@ -2,7 +2,7 @@
 (function () {
     let numberInput = document.getElementById('numberInput');
     numberInput.oninput = function () {
-        let number = numberInput.value;
+        let number = Number(numberInput.value).toFixed(2);
         let result = new Intl.NumberFormat('ru-RU').format(number)
         document.getElementById('result').innerHTML = result;
     }
